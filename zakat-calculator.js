@@ -11,5 +11,7 @@ document.getElementById("zakat-form").addEventListener("submit", function (event
     } else {
         document.getElementById("result").style.display = "none";
         alert("Your total wealth is below the Nisaab value, so no Zakat is due.");
+
     }
 });
+ // 
